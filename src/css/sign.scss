@@ -1,0 +1,106 @@
+.sign{
+  width: 660px;
+  height: 520px;
+  margin: 140px auto 0;
+  border-radius: 4px;
+  border: 1px solid #eff1f5;
+  background: #fff;
+  padding: 70px 100px 20px;
+  position: relative;
+  .logo{
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    left: 0;
+
+  }
+  .logo-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFDB6B;
+    text-align: center;
+    padding-top: 8px;
+    margin: 0 auto;
+    img{
+      width: 80px;border-radius: 50%;vertical-align: middle;
+    }
+  }
+}
+.sign-panel{
+  padding: 0 20px;
+  input{
+    background: #f2f2f2;
+  }
+  nav{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 30px;
+    a{
+      //cursor: pointer;
+      color: #8e8b8b;
+    }
+    a.active{
+      color: #252729;
+    }
+  }
+
+  form {
+    .tel-code{
+      width: 260px;
+    }
+    .send-code{
+      width: 140px;
+      float: right;
+    }
+    .info{
+      color: #8e8b8b;
+      margin-bottom: 26px;
+      font-size: 12px;
+      a{color: #0066cc}
+    }
+    p{
+      margin: 0 0 18px;
+      height: 16px;
+      color: #8c8c8c;
+      i.left{float: left}
+      i.right{float: right}
+      i input,i span{vertical-align: top;margin: 0 10px 0 0;}
+    }
+  }
+  .more-login{
+    margin-top: 20px;
+    text-align: center;
+    p.hr{
+      position: relative;
+      margin: 0 0 20px;
+      font-size: 12px;
+      color: #b5b5b5;
+    }
+    p.hr:before,p.hr:after{
+      content: "";
+      border-top: 1px solid #b5b5b5;
+      display: block;
+      position: absolute;
+      width: 100px;
+      top: 7px;
+    }
+    p.hr:before{
+      left: 30px;
+    }
+    p.hr:after{
+      right: 30px;
+    }
+    ul{
+      height: 50px;
+      width: 210px;
+      margin: 0 auto;
+      li{
+        float: left;
+        margin: 0 10px;
+        img{width: 50px;}
+      }
+    }
+  }
+  
+}

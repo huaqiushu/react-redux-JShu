@@ -1,0 +1,46 @@
+.header{
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #e2dddd;
+  position: fixed;
+  top: 0;
+  .navbar{
+    min-width: 768px;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #7f7f7f;
+    .logo{
+      float: left;
+      img{
+        height: 50px;
+        margin: 5px 0;
+      }
+    }
+    .nav{
+      //display: inline-block;
+      width: 960px;
+      margin: 0 auto;
+    }
+    span{
+      display: inline-block;
+      height: 60px; line-height: 60px;
+      padding: 0 15px;
+      .public{
+        padding: 0 15px;
+        background: #FFDB6B;
+        border-radius: 10px;
+        height: 34px;
+      }
+
+    }
+    input{
+      width: 300px;
+      margin-left: 20px;
+    }
+
+    .right{
+      float: right;
+    }
+  }
+}

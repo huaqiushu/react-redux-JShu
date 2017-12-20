@@ -1,0 +1,45 @@
+{
+  "name": "jshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 3001 --devtool eval --progress --colors --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack"
+  ],
+  "author": "qiuqiu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "sass-loader": "^3.1.2",
+    "node-sass": "^3.4.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "classnames": "^2.2.5",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "html-webpack-plugin": "^2.29.0",
+    "react": "^15.3.2",
+    "react-addons-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^5.0.6",
+    "react-router": "^2.8.1",
+    "redux": "^3.7.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.2.0"
+  }
+}
