@@ -48,6 +48,14 @@ const mapDispatchToProps = dispatch => ({
     actions: bindActionCreators(actions, dispatch)
 });
 
+//另一种写法：绑定多个action
+// const mapDispatchToProps = (dispatch, ownProps) => {
+//     return bindActionCreators({
+//         increase: action.increase,
+//         decrease: action.decrease
+//     });
+// }
+
 const mapStateToProps = state => {
     return{
         notes : state.notes
