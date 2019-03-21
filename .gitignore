@@ -1,0 +1,8 @@
+# 过滤以下文件
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+
+# 不过滤该文件
+!src/
